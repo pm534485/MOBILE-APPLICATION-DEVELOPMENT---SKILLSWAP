@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build files
+build/
+dist/
+.gradle/
+*.apk
+*.aar
+*.class
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# iOS build
+ios/Pods/
+ios/Podfile.lock
+
+# Android build
+android/.gradle/
+android/local.properties
+android/app/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-*
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+
+# React Native
+.watchmanconfig
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
